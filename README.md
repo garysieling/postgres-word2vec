@@ -19,13 +19,13 @@ ORDER BY cosine_similarity(w.vector, v.vector) DESC;
 
 ### Analogy Queries based on 3CosAdd
 ```
-cosadd_pq(float[], float[], float[])
-cosadd_pq(varchar, varchar, varchar)
+analogy_3cosadd(float[], float[], float[])
+analogy_3cosadd(varchar, varchar, varchar)
 ```
 **Example**
 ```
 SELECT *
-FROM cosadd_pq('Francis_Ford_Coppola', 'Godfather', 'Christopher_Nolan');
+FROM analogy_3cosadd('Francis_Ford_Coppola', 'Godfather', 'Christopher_Nolan');
 
 ```
 ### K Nearest Neighbour Queries
