@@ -26,8 +26,13 @@ analogy_3cosadd(varchar, varchar, varchar)
 ```
 SELECT *
 FROM analogy_3cosadd('Francis_Ford_Coppola', 'Godfather', 'Christopher_Nolan');
-
 ```
+
+Result:
+```
+Dark_Knight
+```
+
 ### K Nearest Neighbour Queries
 
 ```
